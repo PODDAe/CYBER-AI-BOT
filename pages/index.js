@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import ChatWindow from '../components/ChatWindow';
 import FileUploader from '../components/FileUploader';
-import '../public/cyberpunk.css';
 
 export default function Home() {
   return (
@@ -13,6 +12,9 @@ export default function Home() {
       <h1>🤖 CYBER AI BOT</h1>
       <ChatWindow />
       <FileUploader />
+      <footer className="footer">
+        <p>Developed by <span className="highlight">DTZ DULA</span> — DTZ OFC TEAM</p>
+      </footer>
     </div>
   );
 }
