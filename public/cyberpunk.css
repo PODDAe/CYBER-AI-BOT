@@ -71,10 +71,15 @@ input {
   background: #2a2a2a;
   border-color: #ff3366;
 }
-
 button {
   background: #ff003c;
   color: #fff;
   border: none;
   padding: 10px 20px;
-  margin-top
+  margin-top: 10px;   /* ✅ Fixed */
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #ff003c;
+}
+
