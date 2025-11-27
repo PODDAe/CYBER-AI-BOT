@@ -1,0 +1,99 @@
+body {
+  background-color: #0d0d0d;
+  font-family: 'Orbitron', sans-serif;
+  color: #ff003c;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #ff003c;
+  text-shadow: 0 0 10px #ff003c;
+}
+
+.chat-window {
+  background: #1a1a1a;
+  border: 2px solid #ff003c;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 20px #ff003c;
+}
+
+.messages {
+  max-height: 300px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.user p {
+  text-align: right;
+  color: #00ffff;
+}
+
+.bot p {
+  text-align: left;
+  color: #ff003c;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  background: #0d0d0d;
+  border: 1px solid #ff003c;
+  color: #fff;
+  font-size: 16px;
+}
+
+.uploader {
+  background: #1a1a1a;
+  border: 2px dashed #ff003c;
+  padding: 20px;
+  border-radius: 10px;
+  color: #ff003c;
+}
+
+.dropzone {
+  padding: 30px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.dropzone.active {
+  background: #2a2a2a;
+  border-color: #ff3366;
+}
+
+button {
+  background: #ff003c;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #ff003c;
+}
+
+.progress-bar {
+  height: 10px;
+  background: #333;
+  border-radius: 5px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.progress-bar > div {
+  height: 100%;
+  background: #ff003c;
+  transition: width 0.3s ease-in-out;
+}
