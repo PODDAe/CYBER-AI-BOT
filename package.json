@@ -1,6 +1,14 @@
 {
   "name": "cyber-ai-bot",
   "version": "1.0.0",
+  "author": "DTZ DULA <dtz@ofc.team>",
+  "contributors": [
+    {
+      "name": "DTZ DULA",
+      "email": "dtz@ofc.team",
+      "organization": "DTZ OFC TEAM"
+    }
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
